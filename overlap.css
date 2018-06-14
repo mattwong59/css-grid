@@ -4,11 +4,12 @@ html {
 
 .magazine {
     display: grid;
-    grid-template-rows: 130px 2fr 1fr;
+    grid-template-rows: 130px 2fr 1.5fr;
     grid-auto-columns: 1.5fr 2fr 1fr 1.5fr;
     width: 95vw;
-    height: 90vh;
-    outline: 6px solid #121219;
+    height: 95vh;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -52,17 +53,18 @@ html {
 .score {
     grid-row: 4;
     grid-column: 4;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 3rem;
+    background-color: rgb(253, 253, 169);
 }
 
 .blue {
-    border: 5px solid skyblue;
     overflow: auto;
+    padding: 1.5rem;
 }
 
 img {
     width: 100%;
 }
 
-.yellow {
-    border: 5px solid rgb(255, 255, 87);
-}
