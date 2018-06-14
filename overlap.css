@@ -5,7 +5,7 @@ html {
 .magazine {
     display: grid;
     grid-template-rows: 130px 2fr 1fr;
-    grid-auto-columns: 1.5fr 1fr 1fr 1.5fr;
+    grid-auto-columns: 1.5fr 2fr 1fr 1.5fr;
     width: 95vw;
     height: 90vh;
     outline: 6px solid #121219;
@@ -36,8 +36,8 @@ html {
 }
 
 .content2 {
-    grid-row: 3 / 4;
-    grid-column: 2 / 4;
+    grid-row: 4;
+    grid-column: 2;
 }
 
 .quote {
@@ -50,7 +50,8 @@ html {
 }
 
 .score {
-    grid-row: 3;
+    grid-row: 4;
+    grid-column: 4;
 }
 
 .blue {
@@ -59,7 +60,6 @@ html {
 }
 
 img {
-    border: 5px solid lightcoral;
     width: 100%;
 }
 
