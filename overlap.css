@@ -4,10 +4,10 @@ html {
 
 .magazine {
     display: grid;
-    grid-template-rows: 130px 2fr 1.5fr;
+    grid-template-rows: 130px 2fr 1.5fr 1.25fr;
     grid-auto-columns: 1.5fr 2fr 1fr 1.5fr;
-    width: 95vw;
-    height: 95vh;
+    width: 100vw;
+    height: 100vh;
     margin-left: auto;
     margin-right: auto;
 
@@ -31,14 +31,21 @@ html {
     grid-column: 2 / 5;
 }
 
+h2 {
+    border-bottom: 1px solid black;
+    width:70%;
+}
+
 .content1 {
-    grid-row: 2 / 4;
+    grid-row: 2 / 5;
     grid-column: 1 / 2;
+    padding: 0.5rem 1.5rem 1.5rem 1.5rem;
 }
 
 .content2 {
     grid-row: 4;
     grid-column: 2;
+    padding: 3rem 1.5rem 1.5rem 1.5rem;
 }
 
 .quote {
@@ -53,15 +60,20 @@ html {
 .score {
     grid-row: 4;
     grid-column: 4;
-    font-size: 2rem;
+    height: 9rem;
+    width: 95%;
+    font-size: 2.5rem;
     text-align: center;
     padding-top: 3rem;
-    background-color: rgb(253, 253, 169);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(153, 130, 101);
 }
 
 .blue {
     overflow: auto;
-    padding: 1.5rem;
+    
+    line-height: 1.5rem;
 }
 
 img {
